@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Phishing Awareness Training</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="top"><h1>🛡 PhishGuard Training</h1><nav id="nav" aria-label="Sections"></nav></header>
+<main>
+<section id="dashboard" class="panel active"><h2>Welcome</h2>
+<p>This interactive course teaches you to recognize phishing emails and fake websites, understand social engineering, and respond correctly. All examples are fictional and safe.</p>
+<h3>Learning objectives</h3><ul><li>Spot suspicious emails, links and attachments</li><li>Understand manipulation tactics</li><li>Analyze URLs and fake login pages</li><li>Apply prevention habits and respond to incidents</li></ul>
+<h3>Your progress</h3><div class="bar"><div id="bar"></div></div><p id="pct" class="muted"></p>
+<div id="cards" class="grid"></div></section>
+<section id="fundamentals" class="panel"><h2>Phishing fundamentals</h2>
+<p>Phishing is a social-engineering attack where a criminal pretends to be a trusted party to trick you into revealing credentials, paying money or running malware.</p>
+<ol class="steps"><li><b>Bait</b> – a convincing message (email, SMS, call).</li><li><b>Hook</b> – a link, attachment or request.</li><li><b>Capture</b> – credentials, payment or malware delivery.</li><li><b>Abuse</b> – account takeover, fraud, further attacks.</li></ol></section>
+<section id="types" class="panel"><h2>Types of phishing</h2><p class="muted">Click a card to expand.</p><div id="typeList" class="grid"></div></section>
+<section id="social" class="panel"><h2>Social engineering techniques</h2><p class="muted">Click a card to expand.</p><div id="socialList" class="grid"></div></section>
+<section id="email" class="panel"><h2>Practical email analysis</h2><p class="muted">Fictional examples. Select “Reveal indicators” to see the warning signs.</p><div id="emails"></div></section>
+<section id="website" class="panel"><h2>Fake website recognition</h2><p class="muted">Static educational mockups. Nothing is collected or sent. Click the numbered markers.</p><div id="sites" class="grid two"></div></section>
+<section id="prevention" class="panel"><h2>Prevention and response</h2>
+<div class="grid two"><div class="card"><h3>Best practices</h3><ul>
+<li>Check the sender's real domain, not just the display name.</li>
+<li>Preview link destinations; type known addresses yourself.</li>
+<li>Use a password manager and unique passwords.</li>
+<li>Enable MFA, preferably phishing-resistant (passkeys, security keys).</li>
+<li>Keep software updated; never enable macros from unknown files.</li>
+<li>Verify unusual requests through a separate, trusted channel.</li></ul></div>
+<div class="card"><h3>If you clicked</h3><ol>
+<li>Disconnect from the network if you opened a file.</li>
+<li>Change affected passwords from a trusted device.</li>
+<li>Enable or reset MFA and review account activity.</li>
+<li>Report to your IT/security team.</li>
+<li>Run a security scan and watch for odd activity.</li></ol></div></div></section>
+<section id="quiz" class="panel"><h2>Knowledge check</h2><div id="quizBox"></div></section>
+</main>
+<footer>Educational use only. All brands and domains are fictional. See <code>references/sources.md</code>.</footer>
+<script src="script.js"></script></body></html>
