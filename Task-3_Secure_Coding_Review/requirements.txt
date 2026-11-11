@@ -1,0 +1,5 @@
+# The SCR tool itself uses ONLY the Python standard library (Python 3.9+).
+# The packages below are needed just for the demo apps in samples/ and the Bandit comparison.
+flask>=3.0
+pyyaml>=6.0
+bandit>=1.7
